@@ -1,4 +1,5 @@
-import Logo from "@/assets/next.svg";
+import FirstCard from "@/components/home/firstCard/FirstCard";
+
 export default function Home() {
-  return <main></main>;
+  return <main><FirstCard /></main>;
 }
