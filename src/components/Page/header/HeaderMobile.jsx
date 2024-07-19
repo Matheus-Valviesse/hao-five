@@ -65,7 +65,7 @@ const MobileOption = ({ modal, setModal }) => {
           initial={{ opacity: 0, y: 70 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: 70 }}
-          className="w-full h-full fixed bg-white bottom-0 left-0 flex flex-col"
+          className="w-full h-full fixed bg-white bottom-0 left-0 flex flex-col z-10"
         >
           {" "}
           <div className="flex flex-row items-center justify-between py-10 px-2 ">
@@ -73,7 +73,7 @@ const MobileOption = ({ modal, setModal }) => {
               <Logo className="  w-full -mt-2" />
             </span>
             <button onClick={() => setModal(false)}>
-              <IoClose className="text-[40px] " />
+              <IoClose className="text-[40px] text-[#000]" />
             </button>
           </div>
           <motion.ul variants={variants} className="px-6 flex flex-col gap-4">
