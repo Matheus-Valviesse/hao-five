@@ -31,8 +31,8 @@ const Header = () => {
     { name: "Contato", path: "" },
   ];
   return (
-    <header className="hidden w-full h-[100px]   px-[20px] md:px-[60px] bg-[#fff] sm:flex flex-row justify-between items-center">
-      <span className="w-[230px]">
+    <header className="hidden w-full h-[60px]   px-[20px] md:px-[60px] bg-[#fff] sm:flex flex-row justify-between items-center">
+      <span className="w-[200px] cursor-pointer">
         <Logo className="-mt-2" />
       </span>
       <ul className="flex flex-row gap-x-[12px] md:gap-x-[24px] text-[#1C1C1C] text-[16px] font-medium">
