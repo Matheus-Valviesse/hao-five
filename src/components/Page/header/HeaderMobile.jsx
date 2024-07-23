@@ -23,7 +23,7 @@ const LIs = ({ text }) => {
   };
   return (
     <motion.li
-      className="relative cursor-pointer text-[18px]"
+      className="relative cursor-pointer text-[18px] text-black"
       variants={variants}
       // initial="hidden"
       // whileHover="visible"
@@ -76,7 +76,7 @@ const MobileOption = ({ modal, setModal }) => {
               <IoClose className="text-[40px] text-[#000]" />
             </button>
           </div>
-          <motion.ul variants={variants} className="px-6 flex flex-col gap-4">
+          <motion.ul variants={variants} className="px-6 flex flex-col gap-6 ">
             {headerLinks?.map((li, i) => (
               <LIs text={li.name} key={li.name + i} />
             ))}

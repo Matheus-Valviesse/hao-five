@@ -11,7 +11,7 @@ const FirstCard = () =>{
         <button className='z-1 justify-end bg-white text-[12px] sm:text-[20px] text-[#000] px-4 py-2 font-bold mb-2 sm:mb-0'>Frist Button</button>
       </div>
 
-      <BgCard className='w-full h-fit max-h-[800px] bg-cover b'/>
+      <BgCard className='w-full h-fit max-h-[800px] bg-cover '/>
     </div>
   )
 }
