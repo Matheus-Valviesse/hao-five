@@ -4,12 +4,12 @@ import { FaWhatsapp } from 'react-icons/fa6';
 import Shadow from '@/assets/Shadow.svg';
 const App = () => {
 	return (
-		<div className='bg-white w-full h-full flex flex-col items-center justify-center px-6 pb-10'>
+		<div className='bg-white w-full h-full flex flex-col items-center justify-center px-6 pb-10 text-center'>
 			<h1 className='text-4xl font-bold mb-10'>Vamos fechar seu projeto?</h1>
 			<p className='font-light text-[#000] text-[22px]'>
 				Gostariamo muito de fazer o seu projeto, veja comos nos encontrar:
 			</p>
-			<div className='grid grid-cols-2 gap-10 mt-6'>
+			<div className='grid  md:grid-cols-2 gap-10 mt-6'>
 				<div className='bg-white rounded-lg shadow-2xl p-6 flex flex-col items-center justify-center'>
 					<h2 className='text-2xl font-bold mb-4'>
 						Vamos falar do sue projeto
