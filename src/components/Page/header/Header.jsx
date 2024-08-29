@@ -8,11 +8,11 @@ import { useEffect, useState } from 'react';
 const Header = () => {
 	const pathName = usePathname();
 	const headerLinks = [
-		{ name: 'Home', path: '/' },
-		{ name: 'Sobre nós', path: '/about' },
-		{ name: 'Projetos', path: '/projects' },
-		{ name: 'Serviços', path: '/services' },
-		{ name: 'Contato', path: '/contact' }
+		{ name: 'Home', path: '/' }
+		// { name: 'Sobre nós', path: '/about' },
+		// { name: 'Projetos', path: '/projects' },
+		// { name: 'Serviços', path: '/services' },
+		// { name: 'Contato', path: '/contact' }
 	];
 
 	return (
