@@ -14,26 +14,48 @@ const Card = ({title,description,icon}) =>{
 } 
 const SecondCard = () => {
   return (
-    <div className='w-full  h-full flex flex-col items-center bg-white py-10 sm:py-20 '>
-      <div className='text-[#555] flex flex-col justify-center items-center w-full text-center px-10'>
-        <p className=' text-[14px] sm:text-[20px] font-normal '>BEM VINDO A HAO FIVE</p>
-        <h1 className='text-[#1c1c1c] text-[20px] sm:text-[32px] max-w-[800px] font-bold  py-4'>AMPLIANDO HORIZONTES DIGITAIS CRIANDO PRODUTOS PARA ALAVANCAR EMPRESAS.</h1>
-         <p className=' text-[14px] sm:text-[18px] font-normal '>Estamos empenhados em fornecer aos nossos clientes um serviço <br/>excepcional, ao mesmo tempo que oferecemos o nosso funcionários o melhor treinamento.</p>
-      </div>
+		<div className='w-full  h-full flex flex-col items-center bg-white py-10 sm:py-20 '>
+			<div className='text-[#555] flex flex-col justify-center items-center w-full text-center px-10'>
+				<p className=' text-[14px] sm:text-[20px] font-normal '>
+					BEM VINDO A HAO FIVE
+				</p>
+				<h1 className='text-[#1c1c1c] text-[20px] sm:text-[32px] max-w-[800px] font-bold  py-4'>
+					Nós trabalhamos com SOLUÇÕES CRIATIVAS E INOVADORAS para ajudar sua
+					empresa a se destacar no mercado
+				</h1>
+				<p className=' text-[14px] sm:text-[18px] font-normal '>
+					Nós trabalhamos com SOLUÇÕES CRIATIVAS E INOVADORAS para ajudar sua
+					empresa a se destacar no mercado
+				</p>
+			</div>
 
-     <div className={'w-full py-10 flex flex-wrap gap-2 justify-center items-center'} > 
-        <Card title='texto aleatorio' description='Na escuridão, Emily ouviu um sussurro vindo do corredor. Seus passos ecoaram pelo vazio. Uma sombra surgiu, avançando em direção à luz.' icon={<MdDashboardCustomize />}/>
-        <Card title='texto aleatorio' description='Na escuridão, Emily ouviu um sussurro vindo do corredor. Seus passos ecoaram pelo vazio. Uma sombra surgiu, avançando em direção à luz.' icon={<MdDashboardCustomize />}/>
-        <Card title='texto aleatorio' description='Na escuridão, Emily ouviu um sussurro vindo do corredor. Seus passos ecoaram pelo vazio. Uma sombra surgiu, avançando em direção à luz.' icon={<MdDashboardCustomize />}/>
-     </div>
-     
+			<div
+				className={
+					'w-full py-10 flex flex-wrap gap-2 justify-center items-center'
+				}
+			>
+				<Card
+					title='texto aleatorio'
+					description='Na escuridão, Emily ouviu um sussurro vindo do corredor. Seus passos ecoaram pelo vazio. Uma sombra surgiu, avançando em direção à luz.'
+					icon={<MdDashboardCustomize />}
+				/>
+				<Card
+					title='texto aleatorio'
+					description='Na escuridão, Emily ouviu um sussurro vindo do corredor. Seus passos ecoaram pelo vazio. Uma sombra surgiu, avançando em direção à luz.'
+					icon={<MdDashboardCustomize />}
+				/>
+				<Card
+					title='texto aleatorio'
+					description='Na escuridão, Emily ouviu um sussurro vindo do corredor. Seus passos ecoaram pelo vazio. Uma sombra surgiu, avançando em direção à luz.'
+					icon={<MdDashboardCustomize />}
+				/>
+			</div>
 
-     <div className='flex flex-col justify-center items-center gap-2 '>
-<SecondaryButton  />
-     </div>
-
-    </div>
-  )
+			<div className='flex flex-col justify-center items-center gap-2 '>
+				<SecondaryButton />
+			</div>
+		</div>
+	);
 }
 
 export default SecondCard

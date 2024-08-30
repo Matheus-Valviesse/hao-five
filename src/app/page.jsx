@@ -11,7 +11,7 @@ export default function Home() {
 			<SecondCard />
 			<ThirdCard />
 			<FourthCard />
-			|<FifthCard />
+			<FifthCard />
 		</main>
 	);
 }

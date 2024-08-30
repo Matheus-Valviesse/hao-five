@@ -9,7 +9,7 @@ const Header = () => {
 	const pathName = usePathname();
 	const headerLinks = [
 		{ name: 'Home', path: '/' },
-		// { name: 'Sobre nós', path: '/about' },
+		{ name: 'Sobre nós', path: '/about' },
 		// { name: 'Projetos', path: '/projects' },
 		{ name: 'Serviços', path: '/services' },
 		{ name: 'Contato', path: '/contact' }
