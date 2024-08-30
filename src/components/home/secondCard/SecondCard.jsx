@@ -11,7 +11,7 @@ const Card = ({title,description,icon}) =>{
       <span className='w-full px-20 mb-[40px]'><ShadowElipse/></span>
     </div>
   )
-}
+} 
 const SecondCard = () => {
   return (
     <div className='w-full  h-full flex flex-col items-center bg-white py-10 sm:py-20 '>
