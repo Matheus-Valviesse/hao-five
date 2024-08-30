@@ -8,7 +8,7 @@ import { IoCameraOutline } from 'react-icons/io5';
 
 const Card = ({ title, description, icon }) => {
 	return (
-		<div className='sm:w-[420px] min-h-[420px] flex flex-col justify-center  items-center gap-4 text-center px-[40px] '>
+		<div className='sm:w-[420px] min-h-[420px] flex flex-col justify-center items-center gap-4 text-center px-[20px] pb-10'>
 			<h2 className='w-full  text-[24px] text-[#2B2828] font-medium'>
 				{title}
 			</h2>
@@ -47,7 +47,14 @@ const page = () => {
 		{ count: 284, title: 'CAFEZINOS TOMADOS' }
 	];
 
-	const categorys = ['audio visual', 'cinema', 'som', 'jogos'];
+	const categorys = [
+		'produção audiovisual',
+		'marketing digital',
+		'videografia e fotografia',
+		'mixagem e design de áudio',
+		'desenvolvimento de jogos',
+		'realidade aumentada e virtual'
+	];
 
 	const servicesData = [
 		{
@@ -56,7 +63,7 @@ const page = () => {
 				'Criação de vídeos promocionais e institucionais para empresas, com foco em comunicação visual e storytelling.',
 			icon: '🎥',
 			message: 'Transforme sua mensagem em vídeo com qualidade profissional.',
-			category: 'audio visual'
+			category: 'produção audiovisual'
 		},
 		{
 			name: 'Direção de Fotografia para Filmes',
@@ -64,7 +71,7 @@ const page = () => {
 				'Serviço de direção de fotografia para curtas, longas e documentários, garantindo a estética visual desejada.',
 			icon: '🎬',
 			message: 'Dê vida ao seu roteiro com imagens que falam por si.',
-			category: 'cinema'
+			category: 'videografia e fotografia'
 		},
 		{
 			name: 'Mixagem e Masterização de Áudio',
@@ -73,7 +80,7 @@ const page = () => {
 			icon: '🎚️',
 			message:
 				'Ajuste o som ao nível de excelência para a melhor experiência auditiva.',
-			category: 'som'
+			category: 'mixagem e design de áudio'
 		},
 		{
 			name: 'Desenvolvimento de Trilha Sonora para Jogos',
@@ -82,7 +89,7 @@ const page = () => {
 			icon: '🎮',
 			message:
 				'Dê uma identidade única ao seu jogo com trilhas sonoras inesquecíveis.',
-			category: 'jogos'
+			category: 'desenvolvimento de jogos'
 		},
 		{
 			name: 'Edição e Pós-Produção de Vídeos',
@@ -90,7 +97,7 @@ const page = () => {
 				'Edição avançada e pós-produção de vídeos com efeitos especiais, correção de cores e ajustes finais.',
 			icon: '✂️',
 			message: 'Transforme suas filmagens em produções visuais impactantes.',
-			category: 'audio visual'
+			category: 'videografia e fotografia'
 		},
 		{
 			name: 'Consultoria de Roteiro e Direção',
@@ -98,7 +105,7 @@ const page = () => {
 				'Apoio na criação e direção de roteiros para cinema, garantindo coerência narrativa e impacto emocional.',
 			icon: '📝',
 			message: 'Conte sua história de maneira envolvente e cativante.',
-			category: 'cinema'
+			category: 'videografia e fotografia'
 		},
 		{
 			name: 'Design de Som para Filmes e Animações',
@@ -106,7 +113,7 @@ const page = () => {
 				'Criação de efeitos sonoros personalizados para filmes, animações e vídeos, enriquecendo a experiência do espectador.',
 			icon: '🔊',
 			message: 'Imersão sonora que dá vida às suas produções.',
-			category: 'som'
+			category: 'mixagem e design de áudio'
 		},
 		{
 			name: 'Desenvolvimento de Jogos Interativos',
@@ -114,7 +121,7 @@ const page = () => {
 				'Criação de jogos interativos com design inovador e mecânicas de jogo cativantes, adaptados ao seu público.',
 			icon: '🕹️',
 			message: 'Crie mundos interativos que encantam e envolvem os jogadores.',
-			category: 'jogos'
+			category: 'desenvolvimento de jogos'
 		}
 	];
 

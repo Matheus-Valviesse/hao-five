@@ -16,6 +16,7 @@ const FifthCard = () => {
 						hidden: { color: '#fff' },
 						visible: { color: '#fff' }
 					}}
+					btnLink={'/contact'}
 				/>
 			</div>
 		</section>

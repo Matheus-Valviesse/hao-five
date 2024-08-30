@@ -11,11 +11,11 @@ const page = () => {
 				</span>
 
 				<span className='absolute w-full h-full flex'>
-					<Wave className='w-[120%] clear-start text-[#FF14FF] justify-self-end self-end md:-mb-20  lg:-mt-[120px]' />
+					<Wave className='w-[120%] clear-start text-[#FF14FF] justify-self-end self-end mb-0 md:-mb-20  lg:-mt-[120px]' />
 				</span>
 
 				<div className='py-[100px] px-4 sm:px-20 '>
-					<div className='flex flex-col gap-y-10 px-6 sm:px-20 py-10 z-20 relative backdrop-blur-md bg-white/30  rounded-lg'>
+					<div className='flex flex-col gap-y-10 px-6 sm:px-20 py-10 z-20 relative backdrop-blur-md bg-white/40  rounded-lg'>
 						<h1 className='text-[18px] sm:text-[26px] font-bold'>
 							Hǎo Five: Onde a Inovação Encontra a Criatividade para Conectar
 							Marcas ao Futuro

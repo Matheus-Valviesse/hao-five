@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { cn } from '@/lib/utils';
+import { useRouter } from 'next/navigation';
 
 const SecondaryButton = ({
 	cnContainer,
@@ -9,8 +10,14 @@ const SecondaryButton = ({
 	cnAnimation,
 	buttonText,
 	variantsText,
-	btnColor
+	btnColor,
+	btnLink
 }) => {
+	const router = useRouter();
+
+	function handleClick(link) {
+		if (link) router.push(link);
+	}
 	return (
 		<motion.div
 			className={cn(
@@ -20,6 +27,7 @@ const SecondaryButton = ({
 			initial='hidden'
 			whileHover='visible'
 			transition={{ duration: 0.3 }}
+			onClick={() => handleClick(btnLink)}
 		>
 			<motion.p
 				className={cn(cnText, 'absolute z-20')}

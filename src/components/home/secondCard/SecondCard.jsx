@@ -1,19 +1,25 @@
-import SecondaryButton from '@/components/button/SecondaryButton'
-import React from 'react'
-import { MdDashboardCustomize } from "react-icons/md";
+import SecondaryButton from '@/components/button/SecondaryButton';
+import React from 'react';
+import { MdDashboardCustomize } from 'react-icons/md';
 import ShadowElipse from '@/assets/card/Ellipse.svg';
-const Card = ({title,description,icon}) =>{
-  return (
-    <div className='sm:w-[320px] h-[420px] flex flex-col justify-center  items-center gap-4 text-center px-[40px] '>
-      <h2 className='w-full  text-[24px] text-[#2B2828] font-medium'>{title}</h2>
-      <p className='w-full text-[18px] text-[#585858] font-medium'>{description}</p>
-      <span className='text-black text-[4rem] mt-[24px]'> {icon}</span>
-      <span className='w-full px-20 mb-[40px]'><ShadowElipse/></span>
-    </div>
-  )
-} 
+const Card = ({ title, description, icon }) => {
+	return (
+		<div className='sm:w-[320px] h-[420px] flex flex-col justify-center  items-center gap-4 text-center px-[40px] '>
+			<h2 className='w-full  text-[24px] text-[#2B2828] font-medium'>
+				{title}
+			</h2>
+			<p className='w-full text-[18px] text-[#585858] font-medium'>
+				{description}
+			</p>
+			<span className='text-black text-[4rem] mt-[24px]'> {icon}</span>
+			<span className='w-full px-20 mb-[40px]'>
+				<ShadowElipse />
+			</span>
+		</div>
+	);
+};
 const SecondCard = () => {
-  return (
+	return (
 		<div className='w-full  h-full flex flex-col items-center bg-white py-10 sm:py-20 '>
 			<div className='text-[#555] flex flex-col justify-center items-center w-full text-center px-10'>
 				<p className=' text-[14px] sm:text-[20px] font-normal '>
@@ -52,10 +58,10 @@ const SecondCard = () => {
 			</div>
 
 			<div className='flex flex-col justify-center items-center gap-2 '>
-				<SecondaryButton />
+				<SecondaryButton btnLink={'/services'} />
 			</div>
 		</div>
 	);
-}
+};
 
-export default SecondCard
+export default SecondCard;
